@@ -1,0 +1,4 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": "/home/fazt/.nvm/versions/node/v7.10.0/lib/node_modules/typescript/bin"
+}

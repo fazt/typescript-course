@@ -1,0 +1,10 @@
+- instalacion de typescript: `sudo npm install -g typescript`
+- comprobar version: `tsc --version`
+- compilacion de .ts a .js
+- types: explicado en el archivo tipos.ts
+- functions: archivo llamado funciones.ts
+- interface: archivo llamado interfaces.ts
+- classes
+- Eums
+- Modules
+- generic types
