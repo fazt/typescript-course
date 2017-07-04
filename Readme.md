@@ -1,13 +1,12 @@
 ## TypeScript Course
 
-
 ## Requirements
 - Node.js and Npm
 - Optional: HTML, CSS, JS
 
 # Typescript Installation
-- to install type in the terminal: `npm install -g typescript`
-- to test your installation: `tsc -v`
+- to install: `npm install -g typescript`
+- to verify installation: `tsc -v`
 - to install Typescript upgrade Node (TSUN): `npm install -g tsun`
 
 # Useful Commands
@@ -52,7 +51,7 @@
     - ts added optional static type annotation to js
     - transform it in a strongly typed programming language
 - functions
-
+- objects
 - ambient declarations
 
 - interfaces
@@ -64,6 +63,7 @@
 - file extension .d.ts, third libs compatibility
 
 - type coercion
+- tsconfig.json
 
 ## Appendix
 - how to debuggin ts file with vs Code

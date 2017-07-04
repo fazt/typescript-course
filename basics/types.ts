@@ -1,3 +1,4 @@
+// STRONG/STATIC TYPING - Syntactic sugar
 // The language allows to declare optinal static type notation
 // syntactic sugar or type annotations
 

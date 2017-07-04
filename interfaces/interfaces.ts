@@ -1,5 +1,18 @@
-// interfaces nos permiten representar una estructura compleja
-// de cualqueir objeto, por ejemplo
+// if a type annotation becomes to complex
+// you can create an interface to represent
+// the type to simplify annotations
+// also is reusable
+// are not limite to objets
+// they can describe any structure
+
+interface IPerson {
+    name: string;
+    heighInCentimeters: number;
+}
+var myperson:IPerson = {
+    name:'Mark',
+    heighInCentimeters: 181
+}
 
 interface IPoint {
     x: number,
@@ -9,9 +22,6 @@ interface IPoint {
 interface ICompare {
     compare(p2: IPoint):number;
 }
-
-
-
 
 
 // las interfaces se pueden heredar a traves de la clausula "extends"

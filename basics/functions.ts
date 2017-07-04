@@ -9,7 +9,13 @@ function myVoid():void{
     return;
 }
 
-
+// function annotation with parameter
+// type annotation and return type annotation
+var sayHello:(name:string) => string;
+// implementation
+sayHello = (name:string) => {
+    return 'Hello' + name;
+}
 
 // type of parameters
 function add(x:number, y:number):number {
