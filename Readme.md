@@ -1,30 +1,23 @@
 ## TypeScript Course
 
 ## Requirements
-- Node.js and Npm
 - Optional: HTML, CSS, JS
+- Node.js and Npm
+- Console / Terminal Usage
 
 # Typescript Installation
-- to install: `npm install -g typescript`
+- to install: `sudo npm install -g typescript`
 - to verify installation: `tsc -v`
 - to install Typescript upgrade Node (TSUN): `npm install -g tsun`
 
 # Useful Commands
 - to transpile: `tsc myfile.ts`
+    - all files: `tsc *.ts`
+    - target Option: `--target ES5`
 - to execute your transpiled file: `node myfile.js`, because is js you can use it on whatever js enviroment
 
 ## Considerations
 - Ts will generate an output JS, even with errors
-
-## TS Design Goals
-- Optional Statically identify JS Construct, strongly typed programming language,
-    to prevent bugs on compilation time. Type safety or code compilation
-- Superset of Javascript
-- Modularity
-- Impose no runtime overhead on emitted programs
-- crossplatform
-- a compilation step
-- compatibility with js libraries
 
 ## More Info
 - (Typescript Github)[]
@@ -35,19 +28,20 @@
 - [TS PlayGround](https://www.typescriptlang.org/play/index.html)
 - Intellisense
 - typescript(npm or yarn)
-- Visual Studio / vsCode
+- Visual Studio
+- vsCode
 
 ## You can Learn from this Code
-- transpile a .ts file to .js file
-- basis
-    - hello world
-    - strong typing
-    - syntatic sugar
-    - types or optional static type annotation
-    - scope variables
-    - avoid type juggling
-    - type coercion
-- types
+    - transpile a .ts file to .js file
+    - basics
+        - hello world
+        - strong typing
+        - syntatic sugar
+        - types or optional static type annotation
+        - scope variables
+        - avoid type juggling
+        - type coercion
+    - types
     - ts added optional static type annotation to js
     - transform it in a strongly typed programming language
 - functions
@@ -77,8 +71,3 @@
     - to configure Tasks: `Ctrl + shift + P` > Tasks > Typescript
     - to execute: `Ctrl/cmd + Shift + B`
 - how to ignore js outputs from ts
-
-## Alternatives
-- Dart
-- CoffeScript
-- Flow

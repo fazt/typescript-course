@@ -12,16 +12,16 @@ var dCounter:number = 0; //number
 // the ts primitive types are:
     // numbers, booleans, string, void, null, undefined
 
-// - Boolean
-var isDone:boolean = true;
-isDone= true;
-
 // - Number: all numbers are floiting point numbers
 var height: number = 6;
 
 // - strings
 var myName: string = "Aaron";
 myName = 'Isaac';
+
+// - Boolean
+var isDone:boolean = true;
+isDone= true;
 
 // Arrays of types
 var listOfNumbers:number[] = [1,2,3];
@@ -38,6 +38,7 @@ strNumTuple = ['Hello', 1000];
 strNumTuple = ['Hello', 2000, 3, 4];
 
 // Enum
+// gives more friendly Names to numeric Values
 enum Color {Red, Green, Blue};
 var c:Color = Color.Red; //0
 
@@ -70,16 +71,3 @@ var myVoidData:void = null;
 var myNullData:null = null;
 var myUndefinedData:undefined = null;
 var myUndefinedData:undefined = undefined;
-
-// union types, stores values of two or more types
-var mypath: string[]|string;
-mypath = '/temp/log.xml';
-mypath = ['/temp/logs.xml', '/temp/errors.xml'];
-//path = 1; //error
-
-// type aliases
-// Type aliases are exactly the same as their original types
-type PrimitiveArray = Array<string|number|boolean>;
-type MyNumber = number;
-//type NgScope = ng.IScope; 
-type Callback = () => void;

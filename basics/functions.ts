@@ -2,7 +2,6 @@ function greets(name:string):string {
     return `Hello + ${name}`;
 }
 
-
 greets('world');
 
 function myVoid():void{
@@ -22,7 +21,8 @@ function add(x:number, y:number):number {
     return x + y;
 }
 
-//z in optional parameter
+//optional parameter
+// when is not parameter, ts assign null value to it
 function addThree(x:number, y:number, z?:number):number {
     if (z !== undefined) {
         return x + y + z;
@@ -30,7 +30,19 @@ function addThree(x:number, y:number, z?:number):number {
     return x + y + z;
 }
 
-// overloads 
+function greetMe(name: string, greeting?: string): string {
+  if(!greeting) {
+    greeting = hello;
+  }
+  return greeting + ', ' + name;
+}
+
+// default parameter
+function greetMeRefactored(name: string, greetig?: string = 'Hello'):string {
+  return greeting + ', ' + name;
+}
+
+// overloads
 // we can use the add strings and numbers
 
 function polimorphicAdd(x:string, y:string):string;
@@ -57,7 +69,7 @@ function sumaCuantosQuieras(arg1) {
   var args = [];
   for (var _i = 0; _i < arguments.length - 1; _i++ ){
       args[_i] = arguments[_i + 1];
-  }  
+  }
 
   var total = arg1;
   for(var i = 0; i < args.length; i++) {

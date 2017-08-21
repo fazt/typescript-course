@@ -1,0 +1,1 @@
+// declara a variable that is not converted to JS
