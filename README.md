@@ -5,11 +5,6 @@
 - Node.js and Npm
 - Console / Terminal Usage
 
-# Typescript Installation
-- to install: `sudo npm install -g typescript`
-- to verify installation: `tsc -v`
-- to install Typescript upgrade Node (TSUN): `npm install -g tsun`
-
 # Useful Commands
 - to transpile: `tsc myfile.ts`
     - all files: `tsc *.ts`

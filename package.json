@@ -1,0 +1,29 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "## Requirements - Optional: HTML, CSS, JS - Node.js and Npm - Console / Terminal Usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:js": "rimraf ./basics/**/**.js",
+    "serve": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaztWeb/typescript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaztWeb/typescript-course/issues"
+  },
+  "homepage": "https://github.com/FaztWeb/typescript-course#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "tsun": "^0.5.0"
+  }
+}
