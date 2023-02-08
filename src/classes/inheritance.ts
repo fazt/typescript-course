@@ -36,3 +36,23 @@ var headers: string[] = ['Name'];
 var data: string[] = ['Alice Green', 'Isaac Asimov', 'Isaac Delahaye'];
 var r: TabbedReport = new TabbedReport(headers, data);
 r.run();
+
+
+// Second Example of inheritance
+
+class CommonPerson {
+  constructor(public name: string, public lastname: string) {}
+}
+
+const joe = new CommonPerson("Joe", "Smith");
+console.log(joe);
+
+// Subclass
+class Programmer extends CommonPerson {
+  constructor(firstname: string, lastname: string, public language: string) {
+    super(firstname, lastname);
+  }
+}
+
+const ryan = new Programmer("Ryan", "Ray", "JavaScript");
+console.log(ryan);

@@ -5,4 +5,4 @@ type MyNumber = number;
 type Callback = () => void;
 
 // to check the type of data
-typeof myName;
+// typeof myName;

@@ -1,11 +1,11 @@
 // Basic interface
-interface Product {
+interface IProduct {
   name: string;
   readonly price: number; // readonly is a modifier
   description?: string;
 }
 
-const product: Product = {
+const product: IProduct = {
   name: "laptop",
   price: 1000,
   description: "good laptop",
