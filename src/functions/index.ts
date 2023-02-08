@@ -32,8 +32,8 @@ countChars("hello");
 
 // array as parameter
 const squares = (array: number[]) => array.map((x) => x * x);
-const result = squares([10, 3, 4]);
-console.log(result);
+const resultSquares = squares([10, 3, 4]);
+console.log(resultSquares);
 
 function myVoid(): void {
   return;
@@ -101,7 +101,7 @@ function addMultiples(arg1: any, ...args: any[]): any {
   return total;
 }
 
-console.log(10)
+console.log(10);
 console.log(addMultiples(1, 2, 3, 4, 5));
 console.log(addMultiples(10, 20, 30, 40, 50));
 console.log(addMultiples("jesus", "roberto", "juan", "pedro"));

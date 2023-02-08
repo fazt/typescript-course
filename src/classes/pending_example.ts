@@ -1,3 +1,7 @@
+interface IPoint {
+  x: number;
+  y: number;
+}
 
 // Some other example of interface
 function addPoints(this: any, p1: IPoint, p2: IPoint): IPoint {
